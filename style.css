@@ -1,0 +1,68 @@
+/* Body */
+body, html {
+    height: 100%;
+    background: linear-gradient(135deg, #f0f0f5, #e0e7ff);  /* Light gradient background */
+    color: #333;  /* Dark grey text for readability */
+    font-family: 'Roboto', sans-serif;  /* Modern, professional font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #007BFF;  /* Blue background */
+    color: white;  /* White text */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);  /* Soft shadow */
+    border-radius: 10px;  /* Rounded corners */
+}
+
+/* Section Titles */
+h2 {
+    color: #007BFF;  /* Accent color for section titles */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Projects and Experience */
+h3 {
+    color: #007BFF;  /* Accent color for project/job titles */
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;  /* Darker blue on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
